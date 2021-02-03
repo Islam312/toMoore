@@ -1,50 +1,30 @@
-//create your typography and buttons
-
-.h1{}
-.h2{}
-.h3{}
-.h4{}
-.h5{}
-.h6{}
-.subtitle1{}
-.subtitle2{}
-.body1{}
-.body2{}
-
-.btn{
-    display: inline-flex;
-    height: 50px;
-    padding: 0 40px;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    outline: none !important;
-    transition: 0.3s;
-    background-color: #333;
-    color: #fff;
+//*============ FONTS ============*
+//*========= CERA PRO BOLD ===========*
+@font-face {
+  font-family: 'cera-pro-bold';
+  src: url('../fonts/fontsfree-net-cor2-webfont.woff2') format('woff2'),
+    url('../fonts/fontsfree-net-cor2-webfont.woff') format('woff'),
+    url('../fonts/fontsfree-net-cor2-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-.btn.btn-warning{
-    &:hover{
 
-    }
+//*========= CERA PRO MEDIUM ===========*
+@font-face {
+  font-family: 'cera-pro-medium';
+  src: url('../fonts/fontsfree-net-cor1-webfont.woff2') format('woff2'),
+    url('../fonts/fontsfree-net-cor1-webfont.woff') format('woff'),
+    url('../fonts/fontsfree-net-cor1-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-.btn.btn-danger{
-    &:hover{
 
-    }
-}
-.btn.btn-success{
-    &:hover{
-
-    }
-}
-.btn.btn-info{
-    &:hover{
-
-    }
-}
-.btn.btn-default{
-    &:hover{
-
-    }
+//*========= CERA PRO REGULAR ===========*
+@font-face {
+  font-family: 'cera-pro-regular';
+  src: url('../fonts/fontsfree-net-cor3-webfont.woff2') format('woff2'),
+    url('../fonts/fontsfree-net-cor3-webfont.woff') format('woff'),
+    url('../fonts/fontsfree-net-cor3-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
