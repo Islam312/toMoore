@@ -1,0 +1,25 @@
+@import 'base/_base';
+@import 'base/_fonts-and-button';
+
+@import 'include/_header';
+@import 'include/_footer';
+
+//include here your components or page styles
+
+
+//your style here
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  a{
+    font-size: 19px;
+  }
+}
